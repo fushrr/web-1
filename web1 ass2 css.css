@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgray;  
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+
+    
+    .highlight {
+        color: green;
+        font-weight: bold;
+    }
+
+   
+    #special {
+        color: red;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    
+    .header {
+margin: 20px;
+padding: 10px;
+border: 2px solid blueviolet;
+}
+    .main {
+  border: 10px ridge #f00;
+  background-color: #ff0;
+  padding: 0.5rem;
+}
+    .footer{
+        background-color: lightgray;
+  padding: 10px;
+  border: 5px solid brown;
+  margin: 15px;
+    }
+.box1 {
+  position: static;
+  font-size: 3em;
+  background: aqua;
+  margin: 10px;
+  border: 5px;
+  padding: 1rem;
+}
+.box2 {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  background: blueviolet;
+  padding: 0.5rem;
+}
+
+.box3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: pink;
+  width: 50%;
+}
+
+
+
+.left {
+  float: left;
+  width: 50%;
+  height: 80px;
+  background: lightcoral;
+}
+
+.right {
+  float: right;
+  height: 65px;
+  width: 50%;
+  background: lightblue;
+}
+
+.clear {
+  clear: both;
+}
+
