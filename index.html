@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>  
-<title>"My First Webpage"</title>
+<head>     
+<title>My First Webpage</title>
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpg" href="https://png.pngtree.com/png-clipart/20210227/ourmid/pngtree-1x1-rubik-s-cube-png-image_2965079.jpg">
+<style>
+    
+    body { 
+        background: lightgray;  
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+
+    
+    .highlight {
+        color: green;
+        font-weight: bold;
+    }
+
+   
+    #special {
+        color: red;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+</style>
 </head>
+
 <body>
+<div class="header">
 <h1>My name is Ayan</h1>
 <h2>Frontend</h2>
 <h3>About me</h3>
-<p>im 18 and im from aktobe</p>
+
+
+<p class="highlight">qwerty</p>
+
+<p style="color: aqua;">im 18 and im from aktobe</p>
+
+<p id="special">This text is styled using an ID selector.</p>
 
 <h3>My hobbies</h3>
 <ol>
@@ -15,19 +48,24 @@
 <li>sleep</li>
 <li>and sleep</li>
 </ol>
+</div>
 
-<h3>favorite websites</h3>
+<div class="box1">Static</div>
+<div class="box2">relative</div>
+<div class="box3">absolute</div>
+    
+<div class="main">
+<h3>Favorite websites</h3>
 <ul>
 <li><a href="https://www.google.com/?hl=ru" target="_blank">Google</a></li>
 <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
 </ul> 
     
 <h3>My Photo</h3>
-<img src="https://kz.kursiv.media/wp-content/uploads/2024/11/37-25-2-1280x1280.jpg"width="125px">
+<img src="https://kz.kursiv.media/wp-content/uploads/2024/11/37-25-2-1280x1280.jpg" width="125px">
 
 <button type="button">Click Me!</button>
 <br><br>
-
 
 <table border="3">
 <caption>My table</caption>
@@ -59,7 +97,7 @@
 
 <br>
 
-<table border="1">
+<table style="border:1px solid blue;">
 <caption>Layout</caption>
 <thead style="font-family: monospace;">
 <tr>
@@ -67,16 +105,18 @@
 <th>Main content</th>
 </tr>
 </thead>
-<tbody style="font-style:inherit ;">
+<tbody style="font-style:inherit;">
 <tr>
 <td>HI</td>
 <td>SUIIII</td>
 </tr>
 </tbody>
 </table>
+</div>
 
-<h3>Emojis</h3>
-<p>&#128578;&#128123;&#128512;</p>
+<div class="footer">
+<h3>Emojis</h3> 
+<p>&#128578; &#128123; &#128512;</p>
     
 <form>
 <label>Name:</label>
@@ -92,3 +132,11 @@
 </form>
 </body>
 </html>
+</div>
+
+<div class="left">Left Box</div>
+<div class="right">Right Box</div>
+
+<div class="clear"></div>
+<p>qweeee</p>
+
